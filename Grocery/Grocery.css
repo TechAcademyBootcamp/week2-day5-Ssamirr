@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700;900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
 body{
     font-family: 'Lato', sans-serif;
     font-size: 14px;
@@ -211,6 +211,7 @@ body{
          z-index: 200;
          top: 0;
           display: none;
+          box-shadow: rgba(0, 0, 0, 0.16) 0px 21px 36px;
     }
     .show{
         display: block;
@@ -226,6 +227,24 @@ body{
     }
     .elmnt3{
         color: rgba(0, 0, 0, 0.25);
+    }
+    .elmnt5 a{
+        color: rgb(0, 158, 127);
+        font-size: 16px;
+        font-weight: bold;
+        font-family: 'Lato', sans-serif;
+    }
+    .elmnt5 a:hover{
+        text-decoration: none;
+        color: rgb(0, 158, 127);
+        transition: 0.3s;
+    }
+    .elmnt4{
+        color: rgb(119, 121, 140);
+        font-family: "Lato", sans-serif;
+        font-size: 15px;
+        font-weight: 700;
+        
     }
 
         .search{
