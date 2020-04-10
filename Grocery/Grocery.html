@@ -10,51 +10,56 @@
     <link rel="stylesheet" href="Grocery.css">
     <title>Grocery</title>
     
+
 </head>
 
 <body>
     <div class="d-flex justify-content-between bg-white">
-    <div class="hamburger">
-        <div class="burger">
+        <div class="hamburger">
+            <div class="burger">
 
-        </div>
-        <div class="burger">
+            </div>
+            <div class="burger">
 
-        </div>
-        <div class="burger">
+            </div>
+            <div class="burger">
 
+            </div>
         </div>
-    </div>
-    <ul class="menuhamburger">
+        <ul class="menuhamburger">
             <li class="hlist">
-                  <a href="">Home</a>
+                <a href="">Home</a>
             </li>
             <li class="hlist">
-                  <a href="">Checkout</a>
+                <a href="">Checkout</a>
             </li>
             <li class="hlist">
-                  <a href="">Profile</a>
+                <a href="">Profile</a>
             </li>
             <li class="hlist">
                 <a href="">Order</a>
             </li>
             <li class="hlist">
-                 <a href="">Order Invoice</a>
+                <a href="">Order Invoice</a>
             </li>
             <li class="hlist">
-                 <a href="">Need Help</a>
+                <a href="">Need Help</a>
             </li>
             <li class="hlist">
-                 <a href="">Offer</a>
+                <a href="">Offer</a>
             </li>
         </ul>
-    <div class="menuimg">
-        <img src="index.svg" alt="">
+        <div class="menuimg">
+            <img src="index.svg" alt="">
+        </div>
+        <div class="searchbutton">
+            <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="14px" height="14px" viewBox="0 0 14 14">
+                    <path
+                        d="M14.771,12.752,11.32,9.286a5.519,5.519,0,0,0,1.374-3.634A5.763,5.763,0,0,0,6.839,0,5.763,5.763,0,0,0,.984,5.652,5.763,5.763,0,0,0,6.839,11.3a5.936,5.936,0,0,0,3.354-1.023l3.477,3.492a.783.783,0,0,0,1.08.02A.72.72,0,0,0,14.771,12.752ZM6.839,1.475a4.259,4.259,0,0,1,4.327,4.178A4.259,4.259,0,0,1,6.839,9.83,4.259,4.259,0,0,1,2.511,5.652,4.259,4.259,0,0,1,6.839,1.475Z"
+                        transform="translate(-0.984)" fill="currentColor"></path>
+                </svg></a>
+        </div>
     </div>
-    <div class="searchbutton">
-        <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="14px" height="14px" viewBox="0 0 14 14"><path d="M14.771,12.752,11.32,9.286a5.519,5.519,0,0,0,1.374-3.634A5.763,5.763,0,0,0,6.839,0,5.763,5.763,0,0,0,.984,5.652,5.763,5.763,0,0,0,6.839,11.3a5.936,5.936,0,0,0,3.354-1.023l3.477,3.492a.783.783,0,0,0,1.08.02A.72.72,0,0,0,14.771,12.752ZM6.839,1.475a4.259,4.259,0,0,1,4.327,4.178A4.259,4.259,0,0,1,6.839,9.83,4.259,4.259,0,0,1,2.511,5.652,4.259,4.259,0,0,1,6.839,1.475Z" transform="translate(-0.984)" fill="currentColor"></path></svg></a>
-    </div>
-</div>
 
     <nav class="basliq position-fixed nav navbar navbar-expand-lg navbar-light bg-white  container-fluid">
         <a class="navbar-brand" href="#"><img src="index.svg" alt=""></a>
@@ -424,40 +429,88 @@
             </div>
             <div class="backet">
                 <div class="topbacket d-flex flex-column">
-                    <span class="mt-3 item" ><svg class="mr-2" xmlns="http://www.w3.org/2000/svg" width="12.686" height="16" viewBox="0 0 12.686 16"><g data-name="Group 2704" transform="translate(-27.023 -2)"><g data-name="Group 17" transform="translate(27.023 5.156)"><g data-name="Group 16"><path data-name="Path 3" d="M65.7,111.043l-.714-9A1.125,1.125,0,0,0,63.871,101H62.459V103.1a.469.469,0,1,1-.937,0V101H57.211V103.1a.469.469,0,1,1-.937,0V101H54.862a1.125,1.125,0,0,0-1.117,1.033l-.715,9.006a2.605,2.605,0,0,0,2.6,2.8H63.1a2.605,2.605,0,0,0,2.6-2.806Zm-4.224-4.585-2.424,2.424a.468.468,0,0,1-.663,0l-1.136-1.136a.469.469,0,0,1,.663-.663l.8.8,2.092-2.092a.469.469,0,1,1,.663.663Z" transform="translate(-53.023 -101.005)" fill="currentColor"></path></g></g><g data-name="Group 19" transform="translate(30.274 2)"><g data-name="Group 18"><path data-name="Path 4" d="M160.132,0a3.1,3.1,0,0,0-3.093,3.093v.063h.937V3.093a2.155,2.155,0,1,1,4.311,0v.063h.937V3.093A3.1,3.1,0,0,0,160.132,0Z" transform="translate(-157.039)" fill="currentColor"></path></g></g></g></svg>0 Item</span>
+                    <span class="mt-3 item"><svg class="mr-2" xmlns="http://www.w3.org/2000/svg" width="12.686"
+                            height="16" viewBox="0 0 12.686 16">
+                            <g data-name="Group 2704" transform="translate(-27.023 -2)">
+                                <g data-name="Group 17" transform="translate(27.023 5.156)">
+                                    <g data-name="Group 16">
+                                        <path data-name="Path 3"
+                                            d="M65.7,111.043l-.714-9A1.125,1.125,0,0,0,63.871,101H62.459V103.1a.469.469,0,1,1-.937,0V101H57.211V103.1a.469.469,0,1,1-.937,0V101H54.862a1.125,1.125,0,0,0-1.117,1.033l-.715,9.006a2.605,2.605,0,0,0,2.6,2.8H63.1a2.605,2.605,0,0,0,2.6-2.806Zm-4.224-4.585-2.424,2.424a.468.468,0,0,1-.663,0l-1.136-1.136a.469.469,0,0,1,.663-.663l.8.8,2.092-2.092a.469.469,0,1,1,.663.663Z"
+                                            transform="translate(-53.023 -101.005)" fill="currentColor"></path>
+                                    </g>
+                                </g>
+                                <g data-name="Group 19" transform="translate(30.274 2)">
+                                    <g data-name="Group 18">
+                                        <path data-name="Path 4"
+                                            d="M160.132,0a3.1,3.1,0,0,0-3.093,3.093v.063h.937V3.093a2.155,2.155,0,1,1,4.311,0v.063h.937V3.093A3.1,3.1,0,0,0,160.132,0Z"
+                                            transform="translate(-157.039)" fill="currentColor"></path>
+                                    </g>
+                                </g>
+                            </g>
+                        </svg>0 Item</span>
                     <span class="mt-3 item2">$0.00</span>
                 </div>
             </div>
 
-            <div class="inbacket">
-                <div class="elmnt1 d-flex justify-content-between">
-                   <div class="elmnt2"><svg class="mr-3 " xmlns="http://www.w3.org/2000/svg" width="19px" height="24px" viewBox="0 0 23.786 30"><g data-name="shopping-bag (3)" transform="translate(-53.023)"><g data-name="Group 2704"><g data-name="Group 17" transform="translate(53.023 5.918)"><g data-name="Group 16"><path data-name="Path 3" d="M76.8,119.826l-1.34-16.881A2.109,2.109,0,0,0,73.362,101H70.716v3.921a.879.879,0,1,1-1.757,0V101H60.875v3.921a.879.879,0,1,1-1.757,0V101H56.472a2.109,2.109,0,0,0-2.094,1.937l-1.34,16.886a4.885,4.885,0,0,0,4.87,5.259H71.926a4.884,4.884,0,0,0,4.87-5.261Zm-7.92-8.6-4.544,4.544a.878.878,0,0,1-1.243,0l-2.13-2.13A.878.878,0,0,1,62.2,112.4l1.509,1.508,3.923-3.923a.879.879,0,1,1,1.242,1.243Z" transform="translate(-53.023 -101.005)" fill="currentColor"></path></g></g><g data-name="Group 19" transform="translate(59.118)"><g data-name="Group 18"><path data-name="Path 4" d="M162.838,0a5.806,5.806,0,0,0-5.8,5.8v.119H158.8V5.8a4.042,4.042,0,1,1,8.083,0v.119h1.757V5.8A5.806,5.806,0,0,0,162.838,0Z" transform="translate(-157.039)" fill="currentColor"></path></g></g></g></g></svg>0 Item</div>     
-                    <svg class="elmnt3 backet2" xmlns="http://www.w3.org/2000/svg" width="10.003" height="10" viewBox="0 0 10.003 10"><path data-name="_ionicons_svg_ios-close (5)" d="M166.686,165.55l3.573-3.573a.837.837,0,0,0-1.184-1.184l-3.573,3.573-3.573-3.573a.837.837,0,1,0-1.184,1.184l3.573,3.573-3.573,3.573a.837.837,0,0,0,1.184,1.184l3.573-3.573,3.573,3.573a.837.837,0,0,0,1.184-1.184Z" transform="translate(-160.5 -160.55)" fill="currentColor"></path></svg>
+            <div class="inbacket  ">
+                <div class="elmnt1 d-flex justify-content-between"
+                    style="border-bottom: 1px solid rgb(241, 241, 241);; padding-bottom:20px;">
+                    <div class="elmnt2"><svg class="mr-3 " xmlns="http://www.w3.org/2000/svg" width="19px" height="24px"
+                            viewBox="0 0 23.786 30">
+                            <g data-name="shopping-bag (3)" transform="translate(-53.023)">
+                                <g data-name="Group 2704">
+                                    <g data-name="Group 17" transform="translate(53.023 5.918)">
+                                        <g data-name="Group 16">
+                                            <path data-name="Path 3"
+                                                d="M76.8,119.826l-1.34-16.881A2.109,2.109,0,0,0,73.362,101H70.716v3.921a.879.879,0,1,1-1.757,0V101H60.875v3.921a.879.879,0,1,1-1.757,0V101H56.472a2.109,2.109,0,0,0-2.094,1.937l-1.34,16.886a4.885,4.885,0,0,0,4.87,5.259H71.926a4.884,4.884,0,0,0,4.87-5.261Zm-7.92-8.6-4.544,4.544a.878.878,0,0,1-1.243,0l-2.13-2.13A.878.878,0,0,1,62.2,112.4l1.509,1.508,3.923-3.923a.879.879,0,1,1,1.242,1.243Z"
+                                                transform="translate(-53.023 -101.005)" fill="currentColor"></path>
+                                        </g>
+                                    </g>
+                                    <g data-name="Group 19" transform="translate(59.118)">
+                                        <g data-name="Group 18">
+                                            <path data-name="Path 4"
+                                                d="M162.838,0a5.806,5.806,0,0,0-5.8,5.8v.119H158.8V5.8a4.042,4.042,0,1,1,8.083,0v.119h1.757V5.8A5.806,5.806,0,0,0,162.838,0Z"
+                                                transform="translate(-157.039)" fill="currentColor"></path>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                        </svg>0 Item</div>
+                    <svg class="elmnt3 backet2" xmlns="http://www.w3.org/2000/svg" width="10.003" height="10"
+                        viewBox="0 0 10.003 10">
+                        <path data-name="_ionicons_svg_ios-close (5)"
+                            d="M166.686,165.55l3.573-3.573a.837.837,0,0,0-1.184-1.184l-3.573,3.573-3.573-3.573a.837.837,0,1,0-1.184,1.184l3.573,3.573-3.573,3.573a.837.837,0,0,0,1.184,1.184l3.573-3.573,3.573,3.573a.837.837,0,0,0,1.184-1.184Z"
+                            transform="translate(-160.5 -160.55)" fill="currentColor"></path>
+                    </svg>
                 </div>
-                        <hr>
-                <div>
-                    <p class="elmnt4">No products found</p>
-                   <div class="elmnt5"><a href="">Have a special code?</a></div> 
-                   <button style="height:50px;border-style: none; width: 374px;margin-left: 23px;border-radius: 48px;background:rgb(0, 158, 127);border-color: rgb(0, 158, 127)" class="d-flex justify-content-between align-items-center">
-                       <span style="color:white;font-size:15px;font-weight:bold;padding: 20px;" >Checkout</span> 
-                       <span class="border " style="font-size:15px;padding-left: 20px;padding-right: 20px; padding-top: 11px;padding-bottom:11px;border-radius:20px;color: rgb(0, 158, 127);background:white;">$0.00</span>
-                   </button>
-            </div>
-            
 
+                <div>
+                    <p class="elmnt4 mt-5" >No products found</p>
+                </div>
+                <div class="elmnt5 mt-auto" style="margin-bottom: 15px;"><div style="margin-bottom: 18px;"><a  href="">Have a special code?</a></div>
+                    <button
+                        style="height:50px;border-style: none; width: 374px;margin-left: 23px;border-radius: 48px;background:rgb(0, 158, 127);border-color: rgb(0, 158, 127)"
+                        class="d-flex justify-content-between align-items-center">
+                        <span style="color:white;font-size:15px;font-weight:bold;padding: 20px;">Checkout</span>
+                        <span class="border "
+                            style="font-size:15px;padding-left: 20px;padding-right: 20px; padding-top: 11px;padding-bottom:11px;border-radius:20px;color: rgb(0, 158, 127);background:white;">$0.00</span>
+                    </button>
+                </div>
             </div>
+
+        </div>
         </div>
     </section>
 
     <div class="row  mt-5 text-center container-fluid ">
-       
+
         <div class="col-xl-4  col-lg-4 col-md-6 col-12 ">
             <img class="img" src="offer-1-1f7a4c9ea0ba5a216bc7af1f60d044e0.png" alt="">
         </div>
         <div class="col-xl-4  col-lg-4 col-md-6 col-12">
             <img class="img" src="offer-2-90d3534e1ad62a8b8a977f1290e61e9f.png" alt="">
         </div>
-    
+
         <div class="shekil3 col-xl-4 col-lg-4">
             <img class="img" src="offer-3-2f8285b13bef950f843cb4147666af6e.png" alt="">
         </div>
@@ -467,8 +520,8 @@
     <div class="row">
         <div class="sol border bg-white col-lg-3  mt-5">
             <ul class="left  d-flex flex-column nav nav-pills nav-stacked">
-                <li class=" active mb-4"><a class=" text-dark" href="#"><svg class="mr-4" xmlns="http://www.w3.org/2000/svg"
-                            width="18px" height="18px" viewBox="0 0 18 18">
+                <li class=" active mb-4"><a class=" text-dark" href="#"><svg class="mr-4"
+                            xmlns="http://www.w3.org/2000/svg" width="18px" height="18px" viewBox="0 0 18 18">
                             <g data-name="Layer 2">
                                 <g data-name="Layer 3">
                                     <path data-name="Path 16"
@@ -529,8 +582,8 @@
                                 </g>
                             </g>
                         </svg>Fruit and Vegetables</a></li>
-                <li class="mb-4"><a class="text-dark" href="#"><svg class="mr-4" xmlns="http://www.w3.org/2000/svg" width="18px"
-                            height="18px" viewBox="0 0 18 18">
+                <li class="mb-4"><a class="text-dark" href="#"><svg class="mr-4" xmlns="http://www.w3.org/2000/svg"
+                            width="18px" height="18px" viewBox="0 0 18 18">
                             <g data-name="Layer 2">
                                 <g data-name="Layer 1">
                                     <path data-name="Path 31"
@@ -539,8 +592,8 @@
                                 </g>
                             </g>
                         </svg>Meat Fish </a></li>
-                <li class="mb-4"><a class="text-dark" href="#"><svg class="mr-4" xmlns="http://www.w3.org/2000/svg" width="18px"
-                            height="18px" viewBox="0 0 18 18">
+                <li class="mb-4"><a class="text-dark" href="#"><svg class="mr-4" xmlns="http://www.w3.org/2000/svg"
+                            width="18px" height="18px" viewBox="0 0 18 18">
                             <g fill="currentColor">
                                 <path data-name="Path 36"
                                     d="M2.109 5.274H12.66a1.055 1.055 0 000-2.11h-.1a1.67 1.67 0 00-1.5-1.054 2.626 2.626 0 00-1.854-1.044 2.1 2.1 0 00-3.653 0 2.626 2.626 0 00-1.85 1.045h-.011a1.577 1.577 0 00-1.481 1.055h-.1a1.055 1.055 0 100 2.11z">
@@ -556,8 +609,8 @@
                                 </path>
                             </g>
                         </svg>Snacks</a></li>
-                <li class="mb-4"><a class="text-dark" href="#"><svg class="mr-4" xmlns="http://www.w3.org/2000/svg" width="18px"
-                            height="18px" viewBox="0 0 18 18">
+                <li class="mb-4"><a class="text-dark" href="#"><svg class="mr-4" xmlns="http://www.w3.org/2000/svg"
+                            width="18px" height="18px" viewBox="0 0 18 18">
                             <g fill="currentColor">
                                 <path data-name="Path 1"
                                     d="M11.335 8.363h-.139a4.189 4.189 0 01-1.864-.44l-1.116-.558.011-.022-.493.493a1.283 1.283 0 01.536.457.879.879 0 00.732.392.326.326 0 01.326.326v.643a1.288 1.288 0 01-.964 1.245v.888a1.76 1.76 0 01-.3.977l-.35.515v.734l.737-.737a.326.326 0 01.548.227v2.186l.643-.426v-2.4a.326.326 0 01.128-.257l1.257-.944a2.143 2.143 0 00.5-1.274 4.447 4.447 0 00-.034-.809z">
@@ -576,8 +629,8 @@
                                     d="M8.002 14.648a.325.325 0 01.034.144v.269l.326.211v-.99l-.359.359z"></path>
                             </g>
                         </svg>Pet Care</a></li>
-                <li class="mb-4"><a class="text-dark" href="#"><svg class="mr-4" xmlns="http://www.w3.org/2000/svg" width="18px"
-                            height="18px" viewBox="0 0 18 18">
+                <li class="mb-4"><a class="text-dark" href="#"><svg class="mr-4" xmlns="http://www.w3.org/2000/svg"
+                            width="18px" height="18px" viewBox="0 0 18 18">
                             <g transform="translate(-1.125 -1.125)" fill="currentColor">
                                 <path data-name="Path 7" d="M1.125 18.54H1.7v.58h-.58z"></path>
                                 <path data-name="Path 8" d="M18.54 18.54h.58v.58h-.58z"></path>
@@ -608,8 +661,8 @@
                                 </path>
                             </g>
                         </svg>Home & Cleaning</a></li>
-                <li class="mb-4"><a class="text-dark" href="#"><svg class="mr-4" xmlns="http://www.w3.org/2000/svg" width="18px"
-                            height="18px" viewBox="0 0 18 18">
+                <li class="mb-4"><a class="text-dark" href="#"><svg class="mr-4" xmlns="http://www.w3.org/2000/svg"
+                            width="18px" height="18px" viewBox="0 0 18 18">
                             <g fill="currentColor">
                                 <path data-name="Path 19"
                                     d="M4.313 14.945V12.23a.34.34 0 00-.34-.34H.332a5.534 5.534 0 00-.125 3.393h3.767a.34.34 0 00.339-.338z">
@@ -623,8 +676,8 @@
                                 </path>
                             </g>
                         </svg>Dairy</a></li>
-                <li class="mb-4"><a class="text-dark" href="#"><svg class="mr-4" xmlns="http://www.w3.org/2000/svg" width="18px"
-                            height="18px" viewBox="0 0 18 18">
+                <li class="mb-4"><a class="text-dark" href="#"><svg class="mr-4" xmlns="http://www.w3.org/2000/svg"
+                            width="18px" height="18px" viewBox="0 0 18 18">
                             <g fill="currentColor">
                                 <path data-name="Path 22"
                                     d="M13.68 6.482H9.835a.63.63 0 100-1.259H8.268a.63.63 0 000 1.259H4.417a2.327 2.327 0 00-2.127 1.98h13.52a2.328 2.328 0 00-2.13-1.98z">
@@ -643,8 +696,8 @@
                                 </path>
                             </g>
                         </svg>Cooking</a></li>
-                <li class="mb-4"><a class="text-dark" href="#"><svg class="mr-4" xmlns="http://www.w3.org/2000/svg" width="18px"
-                            height="18px" viewBox="0 0 18 18">
+                <li class="mb-4"><a class="text-dark" href="#"><svg class="mr-4" xmlns="http://www.w3.org/2000/svg"
+                            width="18px" height="18px" viewBox="0 0 18 18">
                             <g data-name="Group 7" fill="currentColor">
                                 <path data-name="Path 27"
                                     d="M13.034 14.465c2.98-.12 4.31-1.476 4.31-3.136 0-1.442-1-2.655-3.217-3.028.01-.539.011-1.054.011-1.536H0c0 3.158 0 7.743 2.84 9.935-1.724.131-2.84.342-2.84.577 0 .4 3.163.723 7.067.723s7.066-.323 7.066-.723c0-.236-1.118-.446-2.84-.577a5.965 5.965 0 001.741-2.235zm1.035-4.79c1.243.288 1.465.9 1.451 1.687-.016.9-.276 1.508-1.973 1.712a16.339 16.339 0 00.521-3.4zM1.706 7.862h2.209c-.99 2.922.681 7.542.68 7.542-3.611-2.765-2.889-7.542-2.889-7.542z">
@@ -657,16 +710,16 @@
                                 </path>
                             </g>
                         </svg>Breakfast</a></li>
-                <li class="mb-4"><a class="text-dark" href="#"><svg class="mr-4" xmlns="http://www.w3.org/2000/svg" width="18px"
-                            height="18px" viewBox="0 0 18 18">
+                <li class="mb-4"><a class="text-dark" href="#"><svg class="mr-4" xmlns="http://www.w3.org/2000/svg"
+                            width="18px" height="18px" viewBox="0 0 18 18">
                             <g data-name="Group 9">
                                 <path data-name="Path 30"
                                     d="M12.405.7a3.635 3.635 0 00-3.591 3.1H4.4L.811 0 .043.723l2.9 3.084H-.001l6.262 7.018v6.121H3.327V18h7.03v-1.054H7.32v-6.122l3.091-3.46a3.629 3.629 0 102-6.66zM9.817 6.442H3.771L2.358 4.863h8.87z"
                                     fill="currentColor"></path>
                             </g>
                         </svg>Beverage</a></li>
-                <li class=""><a class="text-dark" href="#"><svg class="mr-4" xmlns="http://www.w3.org/2000/svg" width="18px"
-                            height="18px" viewBox="0 0 18 18">
+                <li class=""><a class="text-dark" href="#"><svg class="mr-4" xmlns="http://www.w3.org/2000/svg"
+                            width="18px" height="18px" viewBox="0 0 18 18">
                             <g data-name="Group 12">
                                 <g data-name="Group 11" fill="currentColor">
                                     <path data-name="Path 31"
@@ -691,18 +744,19 @@
         </div>
 
         <div class="col-lg-9 col-12 col-md-12">
-            <div class=" row " >
+            <div class=" row ">
                 <div class="col-6 col-lg-3 col-md-4 ">
-                    <div class="mt-5 card"data-toggle="modal" data-target="#exampleModal1" style="width: 13rem;">
+                    <div class="mt-5 card" data-toggle="modal" data-target="#exampleModal1" style="width: 13rem;">
                         <img class="card-img-top" style="height: 180px;"
                             src="http://s3.amazonaws.com/redqteam.com/pickbazar/banana_thumb.png" alt="Card image cap">
                         <div class="card-body">
-                            
+
                             <h6 class="font-weight-bold card-title">Banana</h6>
                             <h6 class="h6">8pc(s)</h6>
                             <div class="althisse row mx-auto mt-5 justify-content-between">
-                                <p class="p-2" >$10</p>
-                                <p class="rounded-pill border bg-white  p-2 pr-4 pl-4"><svg  xmlns="http://www.w3.org/2000/svg" width="14.4" height="12"
+                                <p class="p-2">$10</p>
+                                <p class="rounded-pill border bg-white  p-2 pr-4 pl-4"><svg
+                                        xmlns="http://www.w3.org/2000/svg" width="14.4" height="12"
                                         viewBox="0 0 14.4 12">
                                         <g data-name="Group 120" transform="translate(-288 -413.89)">
                                             <path data-name="Path 154" fill="currentColor"
@@ -710,80 +764,99 @@
                                             </path>
                                         </g>
                                     </svg>Cart</p>
-                                </div>
-                          </div>
-                      </div>
-                   </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
                 <!-- Modal -->
-                
-<div class="modal fade" id="exampleModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog " style="max-width: 885px" role="document ">
-          <div class="modal-content" style=" width:900px">
-            <div class="">
-              
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
-            </div>
-            <div class="modal-body  ">
-            <div class="row">
-              <div class="col-6">
-                    <img src="http://s3.amazonaws.com/redqteam.com/pickbazar/banana.jpg" draggable="false" style="width:100%;" alt="placeholder" class="product-image">
-                    <div class="row">
-                        <div class="col-3 mb-3">
-                                <img class="border" src="http://s3.amazonaws.com/redqteam.com/pickbazar/banana.jpg" draggable="false" style="width: 100%; height: 100%; position: relative;" alt="placeholder">
+
+                <div class="modal fade" id="exampleModal1" tabindex="-1" role="dialog"
+                    aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog " style="max-width: 885px" role="document ">
+                        <div class="modal-content" style=" width:900px">
+                            <div class="modal-body p-0  ">
+                                <div class="row">
+                                    <div class="col-6" style="padding:20px;">
+                                        <img src="http://s3.amazonaws.com/redqteam.com/pickbazar/banana.jpg"
+                                            draggable="false" style="width:100%;" alt="placeholder"
+                                            class="product-image">
+                                        <div class="row ">
+                                            <div class="col-3 mb-3 ">
+                                                <img class="border"
+                                                    src="http://s3.amazonaws.com/redqteam.com/pickbazar/banana.jpg"
+                                                    draggable="false"
+                                                    style="width: 100%; height: 100%; position: relative;"
+                                                    alt="placeholder">
+                                            </div>
+                                            <div class="col-3 mb-3">
+                                                <img class="border"
+                                                    src="http://s3.amazonaws.com/redqteam.com/pickbazar/banana.jpg"
+                                                    draggable="false"
+                                                    style="width: 100%; height: 100%; position: relative;"
+                                                    alt="placeholder">
+                                            </div>
+                                            <div class="col-3 mb-3">
+                                                <img class="border"
+                                                    src="http://s3.amazonaws.com/redqteam.com/pickbazar/banana.jpg"
+                                                    draggable="false"
+                                                    style="width: 100%; height: 100%; position: relative;"
+                                                    alt="placeholder">
+                                            </div>
+                                            <div class="col-3 mb-3">
+                                                <img class="border"
+                                                    src="http://s3.amazonaws.com/redqteam.com/pickbazar/banana.jpg"
+                                                    draggable="false"
+                                                    style="width: 100%; height: 100%; position: relative;"
+                                                    alt="placeholder">
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="col-6  border-left" style="padding:40px;text-align:left;padding-right:60px">
+                                        <h4 class="font ">Banana</h4>
+                                        <h6 class="pc ">8 pc(s)</h6>
+                                        <p class="mbanan mt-5">A banana is an edible fruit – botanically a berry –
+                                            produced by several kinds of large herbaceous flowering plants in the genus
+                                            Musa. In some countries, bananas used for cooking may be called plantains
+                                            distinguishing them from dessert bananas.</p>
+                                        <h1 class="pul ">$10</h1>
+                                        <p class="rounded-pill border bg-white ml-1  p-2 pr-4 pl-4"><svg
+                                                xmlns="http://www.w3.org/2000/svg" width="14.4" height="12"
+                                                viewBox="0 0 14.4 12">
+                                                <g data-name="Group 120" transform="translate(-288 -413.89)">
+                                                    <path data-name="Path 154" fill="currentColor"
+                                                        d="M298.7,418.289l-2.906-4.148a.835.835,0,0,0-.528-.251.607.607,0,0,0-.529.251l-2.905,4.148h-3.17a.609.609,0,0,0-.661.625v.191l1.651,5.84a1.336,1.336,0,0,0,1.255.945h8.588a1.261,1.261,0,0,0,1.254-.945l1.651-5.84v-.191a.609.609,0,0,0-.661-.625Zm-5.419,0,1.984-2.767,1.98,2.767Zm1.984,5.024a1.258,1.258,0,1,1,1.319-1.258,1.3,1.3,0,0,1-1.319,1.258Zm0,0">
+                                                    </path>
+                                                </g>
+                                            </svg>Cart</p>
+                                        <div class="row">
+                                            <a class="buttonmodal b2 border  mr-3 p-1 pr-2 pl-2" href="">Fruits
+                                                Vegetables</a>
+                                            <a class="buttonmodal border mr-3 p-1 pr-2 pl-2  " href="">Fruits</a>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                            </div>
+
                         </div>
-                           <div class="col-3 mb-3"> 
-                                <img class="border" src="http://s3.amazonaws.com/redqteam.com/pickbazar/banana.jpg" draggable="false" style="width: 100%; height: 100%; position: relative;" alt="placeholder">
+                    </div>
                 </div>
-                   <div class="col-3 mb-3"> 
-                        <img class="border" src="http://s3.amazonaws.com/redqteam.com/pickbazar/banana.jpg" draggable="false" style="width: 100%; height: 100%; position: relative;" alt="placeholder">
-                </div>
-                   <div class="col-3 mb-3"> 
-                        <img class="border" src="http://s3.amazonaws.com/redqteam.com/pickbazar/banana.jpg" draggable="false" style="width: 100%; height: 100%; position: relative;" alt="placeholder">
-                </div>
-                    
-                </div>
-              </div> 
-            <div class="col-6 mt-5 border-left">
-                <h4 class="font ">Banana</h4>
-                <h6 class="pc ">8 pc(s)</h6>
-                <p class="mbanan mt-5">A banana is an edible fruit – botanically a berry – produced by several kinds of large herbaceous flowering plants in the genus Musa. In some countries, bananas used for cooking may be called plantains distinguishing them from dessert bananas.</p>
-                <h1 class="pul ">$10</h1>
-                <p class="rounded-pill border bg-white ml-1  p-2 pr-4 pl-4"><svg  xmlns="http://www.w3.org/2000/svg" width="14.4" height="12"
-                                        viewBox="0 0 14.4 12">
-                                        <g data-name="Group 120" transform="translate(-288 -413.89)">
-                                            <path data-name="Path 154" fill="currentColor"
-                                                d="M298.7,418.289l-2.906-4.148a.835.835,0,0,0-.528-.251.607.607,0,0,0-.529.251l-2.905,4.148h-3.17a.609.609,0,0,0-.661.625v.191l1.651,5.84a1.336,1.336,0,0,0,1.255.945h8.588a1.261,1.261,0,0,0,1.254-.945l1.651-5.84v-.191a.609.609,0,0,0-.661-.625Zm-5.419,0,1.984-2.767,1.98,2.767Zm1.984,5.024a1.258,1.258,0,1,1,1.319-1.258,1.3,1.3,0,0,1-1.319,1.258Zm0,0">
-                                            </path>
-                                        </g>
-                                    </svg>Cart</p>
-                <div class="row"> 
-                    <a class="buttonmodal b2 border  mr-3 p-1 pr-2 pl-2" href="">Fruits Vegetables</a>
-                    <a class="buttonmodal border mr-3 p-1 pr-2 pl-2  " href="">Fruits</a>
-                </div>
-
-            </div> 
-
-            </div>
-            </div>
-            
-          </div>
-        </div>
-      </div>
 
 
                 <div class="col-6 col-lg-3 col-md-4 ">
-                    <div class="mt-5 card" style="width: 13rem;">
-                        <img  class="card-img-top align-items-center" style="height: 180px;"
+                    <div class="mt-5 card" data-toggle="modal" data-target="#exampleModal1" style="width: 13rem;">
+                        <img class="card-img-top align-items-center" style="height: 180px;"
                             src="http://s3.amazonaws.com/redqteam.com/pickbazar/onions_thumb.png" alt="Card image cap">
                         <div class="card-body">
                             <h6 class="font-weight-bold card-title">Onions</h6>
                             <h6 class="h6">10 lb</h6>
                             <div class="althisse row mx-auto mt-5 justify-content-between">
                                 <p class="p-2">$7.2</p>
-                                <p class="rounded-pill border bg-white  p-2 pr-4 pl-4"><svg xmlns="http://www.w3.org/2000/svg" width="14.4" height="12"
+                                <p class="rounded-pill border bg-white  p-2 pr-4 pl-4"><svg
+                                        xmlns="http://www.w3.org/2000/svg" width="14.4" height="12"
                                         viewBox="0 0 14.4 12">
                                         <g data-name="Group 120" transform="translate(-288 -413.89)">
                                             <path data-name="Path 154" fill="currentColor"
@@ -796,7 +869,7 @@
                     </div>
                 </div>
                 <div class="col-6 col-lg-3 col-md-4 ">
-                    <div class="mt-5 card" style="width: 13rem;">
+                    <div class="mt-5 card" data-toggle="modal" data-target="#exampleModal1" style="width: 13rem;">
                         <img class="card-img-top" style="height: 180px;"
                             src="http://s3.amazonaws.com/redqteam.com/pickbazar/blue_grapes_thumb.png"
                             alt="Card image cap">
@@ -805,7 +878,8 @@
                             <h6 class="h6">10 lb</h6>
                             <div class="althisse row mx-auto mt-5 justify-content-between">
                                 <p class="p-2">$10.8</p>
-                                <p class="rounded-pill border bg-white  p-2 pr-4 pl-4"><svg xmlns="http://www.w3.org/2000/svg" width="14.4" height="12"
+                                <p class="rounded-pill border bg-white  p-2 pr-4 pl-4"><svg
+                                        xmlns="http://www.w3.org/2000/svg" width="14.4" height="12"
                                         viewBox="0 0 14.4 12">
                                         <g data-name="Group 120" transform="translate(-288 -413.89)">
                                             <path data-name="Path 154" fill="currentColor"
@@ -818,7 +892,7 @@
                     </div>
                 </div>
                 <div class="col-6 col-lg-3 col-md-4 ">
-                    <div class="mt-5 card" style="width: 13rem;">
+                    <div class="mt-5 card" data-toggle="modal" data-target="#exampleModal1" style="width: 13rem;">
                         <img class="card-img-top" style="height: 180px;"
                             src="http://s3.amazonaws.com/redqteam.com/pickbazar/cocnut_thumb.png" alt="Card image cap">
                         <div class="card-body">
@@ -826,7 +900,8 @@
                             <h6 class="h6">1 pc(s)</h6>
                             <div class="althisse row mx-auto mt-5 justify-content-between">
                                 <p class="p-2">$8</p>
-                                <p class="rounded-pill border bg-white  p-2 pr-4 pl-4"><svg xmlns="http://www.w3.org/2000/svg" width="14.4" height="12"
+                                <p class="rounded-pill border bg-white  p-2 pr-4 pl-4"><svg
+                                        xmlns="http://www.w3.org/2000/svg" width="14.4" height="12"
                                         viewBox="0 0 14.4 12">
                                         <g data-name="Group 120" transform="translate(-288 -413.89)">
                                             <path data-name="Path 154" fill="currentColor"
@@ -839,7 +914,7 @@
                     </div>
                 </div>
                 <div class="col-6 col-lg-3 col-md-4 ">
-                    <div class="mt-5 card" style="width: 13rem;">
+                    <div class="mt-5 card" data-toggle="modal" data-target="#exampleModal1" style="width: 13rem;">
                         <img class="card-img-top" style="height: 180px;"
                             src="http://s3.amazonaws.com/redqteam.com/pickbazar/garlic_thumb.png">
                         <div class="card-body">
@@ -847,7 +922,8 @@
                             <h6 class="h6">15 lb</h6>
                             <div class="althisse row mx-auto mt-5 justify-content-between">
                                 <p class="p-2">$4</p>
-                                <p class="rounded-pill border bg-white  p-2 pr-4 pl-4"><svg xmlns="http://www.w3.org/2000/svg" width="14.4" height="12"
+                                <p class="rounded-pill border bg-white  p-2 pr-4 pl-4"><svg
+                                        xmlns="http://www.w3.org/2000/svg" width="14.4" height="12"
                                         viewBox="0 0 14.4 12">
                                         <g data-name="Group 120" transform="translate(-288 -413.89)">
                                             <path data-name="Path 154" fill="currentColor"
@@ -860,15 +936,17 @@
                     </div>
                 </div>
                 <div class="col-6 col-lg-3 col-md-4 ">
-                    <div class="mt-5 card" style="width: 13rem;">
+                    <div class="mt-5 card" data-toggle="modal" data-target="#exampleModal1" style="width: 13rem;">
                         <img class="card-img-top" style="height: 180px;"
-                            src="http://s3.amazonaws.com/redqteam.com/pickbazar/Green_Apple_thumb.png" alt="Card image cap">
+                            src="http://s3.amazonaws.com/redqteam.com/pickbazar/Green_Apple_thumb.png"
+                            alt="Card image cap">
                         <div class="card-body">
                             <h6 class="font-weight-bold card-title">Green Apple</h6>
                             <h6 class="h6">20 lb</h6>
                             <div class="althisse row mx-auto mt-5 justify-content-between">
                                 <p class="p-2">$8.8</p>
-                                <p class="rounded-pill border bg-white  p-2 pr-4 pl-4"><svg xmlns="http://www.w3.org/2000/svg" width="14.4" height="12"
+                                <p class="rounded-pill border bg-white  p-2 pr-4 pl-4"><svg
+                                        xmlns="http://www.w3.org/2000/svg" width="14.4" height="12"
                                         viewBox="0 0 14.4 12">
                                         <g data-name="Group 120" transform="translate(-288 -413.89)">
                                             <path data-name="Path 154" fill="currentColor"
@@ -881,7 +959,7 @@
                     </div>
                 </div>
                 <div class="col-6 col-lg-3 col-md-4 ">
-                    <div class="mt-5 card" style="width: 13rem;">
+                    <div class="mt-5 card" data-toggle="modal" data-target="#exampleModal1" style="width: 13rem;">
                         <img class="card-img-top" style="height: 180px;"
                             src="http://s3.amazonaws.com/redqteam.com/pickbazar/guava_thumb.png">
                         <div class="card-body">
@@ -889,7 +967,8 @@
                             <h6 class="h6">20 lb</h6>
                             <div class="althisse row mx-auto mt-5 justify-content-between">
                                 <p class="p-2">$16.2</p>
-                                <p class="rounded-pill border bg-white  p-2 pr-4 pl-4"><svg xmlns="http://www.w3.org/2000/svg" width="14.4" height="12"
+                                <p class="rounded-pill border bg-white  p-2 pr-4 pl-4"><svg
+                                        xmlns="http://www.w3.org/2000/svg" width="14.4" height="12"
                                         viewBox="0 0 14.4 12">
                                         <g data-name="Group 120" transform="translate(-288 -413.89)">
                                             <path data-name="Path 154" fill="currentColor"
@@ -902,7 +981,7 @@
                     </div>
                 </div>
                 <div class="col-6 col-lg-3 col-md-4 ">
-                    <div class="mt-5 card" style="width: 13rem;">
+                    <div class="mt-5 card" data-toggle="modal" data-target="#exampleModal1" style="width: 13rem;">
                         <img class="card-img-top" style="height: 180px;"
                             src="http://s3.amazonaws.com/redqteam.com/pickbazar/lemon_thumb.png">
                         <div class="card-body">
@@ -910,7 +989,8 @@
                             <h6 class="h6">4 pc(s)</h6>
                             <div class="althisse row mx-auto mt-5 justify-content-between">
                                 <p class="p-2">$12</p>
-                                <p class="rounded-pill border bg-white  p-2 pr-4 pl-4"><svg xmlns="http://www.w3.org/2000/svg" width="14.4" height="12"
+                                <p class="rounded-pill border bg-white  p-2 pr-4 pl-4"><svg
+                                        xmlns="http://www.w3.org/2000/svg" width="14.4" height="12"
                                         viewBox="0 0 14.4 12">
                                         <g data-name="Group 120" transform="translate(-288 -413.89)">
                                             <path data-name="Path 154" fill="currentColor"
@@ -923,7 +1003,7 @@
                     </div>
                 </div>
                 <div class="col-6 col-lg-3 col-md-4  ">
-                    <div class="mt-5 card" style="width: 13rem;">
+                    <div class="mt-5 card" data-toggle="modal" data-target="#exampleModal1" style="width: 13rem;">
                         <img class="card-img-top" style="height: 180px;"
                             src="http://s3.amazonaws.com/redqteam.com/pickbazar/oranges_thumb.png">
                         <div class="card-body">
@@ -931,7 +1011,8 @@
                             <h6 class="h6">20 lb</h6>
                             <div class="althisse row mx-auto mt-5 justify-content-between">
                                 <p class="p-2">$20</p>
-                                <p class="rounded-pill border bg-white  p-2 pr-4 pl-4"><svg xmlns="http://www.w3.org/2000/svg" width="14.4" height="12"
+                                <p class="rounded-pill border bg-white  p-2 pr-4 pl-4"><svg
+                                        xmlns="http://www.w3.org/2000/svg" width="14.4" height="12"
                                         viewBox="0 0 14.4 12">
                                         <g data-name="Group 120" transform="translate(-288 -413.89)">
                                             <path data-name="Path 154" fill="currentColor"
@@ -944,7 +1025,7 @@
                     </div>
                 </div>
                 <div class="col-6 col-lg-3 col-md-4 ">
-                    <div class="mt-5 card" style="width: 13rem;">
+                    <div class="mt-5 card" data-toggle="modal" data-target="#exampleModal1" style="width: 13rem;">
                         <img class="card-img-top" style="height: 180px;"
                             src="http://s3.amazonaws.com/redqteam.com/pickbazar/pepper_thumb.png" alt="Card image cap">
                         <div class="card-body">
@@ -952,7 +1033,8 @@
                             <h6 class="h6">15 lb</h6>
                             <div class="althisse row mx-auto mt-5 justify-content-between">
                                 <p class="p-2">$8</p>
-                                <p class="rounded-pill border bg-white  p-2 pr-4 pl-4"><svg xmlns="http://www.w3.org/2000/svg" width="14.4" height="12"
+                                <p class="rounded-pill border bg-white  p-2 pr-4 pl-4"><svg
+                                        xmlns="http://www.w3.org/2000/svg" width="14.4" height="12"
                                         viewBox="0 0 14.4 12">
                                         <g data-name="Group 120" transform="translate(-288 -413.89)">
                                             <path data-name="Path 154" fill="currentColor"
@@ -965,48 +1047,55 @@
                     </div>
                 </div>
                 <div class="col-6 col-lg-3 col-md-4  ">
-                        <div class="mt-5 card" style="width: 13rem;">
-                            <img class="card-img-top" style="height: 180px;" src="http://s3.amazonaws.com/redqteam.com/pickbazar/apineapple_thumb.png"
-                                alt="Card image cap">
-                            <div class="card-body">
-                                <h6 class="font-weight-bold card-title">Pineapple</h6>
-                                <h6 class="h6">1 pc(s)</h6>
-                                <div class="althisse row mx-auto mt-5 justify-content-between">
-                                    <p class="p-2">$20</p>
-                                    <p class="rounded-pill border bg-white  p-2 pr-4 pl-4"><svg xmlns="http://www.w3.org/2000/svg" width="14.4" height="12" viewBox="0 0 14.4 12">
-                                            <g data-name="Group 120" transform="translate(-288 -413.89)">
-                                                <path data-name="Path 154" fill="currentColor"
-                                                    d="M298.7,418.289l-2.906-4.148a.835.835,0,0,0-.528-.251.607.607,0,0,0-.529.251l-2.905,4.148h-3.17a.609.609,0,0,0-.661.625v.191l1.651,5.84a1.336,1.336,0,0,0,1.255.945h8.588a1.261,1.261,0,0,0,1.254-.945l1.651-5.84v-.191a.609.609,0,0,0-.661-.625Zm-5.419,0,1.984-2.767,1.98,2.767Zm1.984,5.024a1.258,1.258,0,1,1,1.319-1.258,1.3,1.3,0,0,1-1.319,1.258Zm0,0">
-                                                </path>
-                                            </g>
-                                        </svg>Cart</p>
-                                </div>
+                    <div class="mt-5 card" data-toggle="modal" data-target="#exampleModal1" style="width: 13rem;">
+                        <img class="card-img-top" style="height: 180px;"
+                            src="http://s3.amazonaws.com/redqteam.com/pickbazar/apineapple_thumb.png"
+                            alt="Card image cap">
+                        <div class="card-body">
+                            <h6 class="font-weight-bold card-title">Pineapple</h6>
+                            <h6 class="h6">1 pc(s)</h6>
+                            <div class="althisse row mx-auto mt-5 justify-content-between">
+                                <p class="p-2">$20</p>
+                                <p class="rounded-pill border bg-white  p-2 pr-4 pl-4"><svg
+                                        xmlns="http://www.w3.org/2000/svg" width="14.4" height="12"
+                                        viewBox="0 0 14.4 12">
+                                        <g data-name="Group 120" transform="translate(-288 -413.89)">
+                                            <path data-name="Path 154" fill="currentColor"
+                                                d="M298.7,418.289l-2.906-4.148a.835.835,0,0,0-.528-.251.607.607,0,0,0-.529.251l-2.905,4.148h-3.17a.609.609,0,0,0-.661.625v.191l1.651,5.84a1.336,1.336,0,0,0,1.255.945h8.588a1.261,1.261,0,0,0,1.254-.945l1.651-5.84v-.191a.609.609,0,0,0-.661-.625Zm-5.419,0,1.984-2.767,1.98,2.767Zm1.984,5.024a1.258,1.258,0,1,1,1.319-1.258,1.3,1.3,0,0,1-1.319,1.258Zm0,0">
+                                            </path>
+                                        </g>
+                                    </svg>Cart</p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-6 col-lg-3 col-md-4  ">
-                            <div class="mt-5 card" style="width: 13rem;">
-                                <img class="card-img-top" style="height: 180px;" src="http://s3.amazonaws.com/redqteam.com/pickbazar/pomegranate_thumb.png"
-                                    alt="Card image cap">
-                                <div class="card-body">
-                                    <h6 class="font-weight-bold card-title">Pomegranate</h6>
-                                    <h6 class="h6">20 lb</h6>
-                                    <div class="althisse row mx-auto mt-5 justify-content-between">
-                                        <p class="p-2">$21</p>
-                                        <p class="rounded-pill border bg-white  p-2 pr-4 pl-4"><svg xmlns="http://www.w3.org/2000/svg" width="14.4" height="12" viewBox="0 0 14.4 12">
-                                                <g data-name="Group 120" transform="translate(-288 -413.89)">
-                                                    <path data-name="Path 154" fill="currentColor"
-                                                        d="M298.7,418.289l-2.906-4.148a.835.835,0,0,0-.528-.251.607.607,0,0,0-.529.251l-2.905,4.148h-3.17a.609.609,0,0,0-.661.625v.191l1.651,5.84a1.336,1.336,0,0,0,1.255.945h8.588a1.261,1.261,0,0,0,1.254-.945l1.651-5.84v-.191a.609.609,0,0,0-.661-.625Zm-5.419,0,1.984-2.767,1.98,2.767Zm1.984,5.024a1.258,1.258,0,1,1,1.319-1.258,1.3,1.3,0,0,1-1.319,1.258Zm0,0">
-                                                    </path>
-                                                </g>
-                                            </svg>Cart</p>
-                                    </div>
-                                </div>
+                </div>
+                <div class="col-6 col-lg-3 col-md-4  ">
+                    <div class="mt-5 card" data-toggle="modal" data-target="#exampleModal1" style="width: 13rem;">
+                        <img class="card-img-top" style="height: 180px;"
+                            src="http://s3.amazonaws.com/redqteam.com/pickbazar/pomegranate_thumb.png"
+                            alt="Card image cap">
+                        <div class="card-body">
+                            <h6 class="font-weight-bold card-title">Pomegranate</h6>
+                            <h6 class="h6">20 lb</h6>
+                            <div class="althisse row mx-auto mt-5 justify-content-between">
+                                <p class="p-2">$21</p>
+                                <p class="rounded-pill border bg-white  p-2 pr-4 pl-4"><svg
+                                        xmlns="http://www.w3.org/2000/svg" width="14.4" height="12"
+                                        viewBox="0 0 14.4 12">
+                                        <g data-name="Group 120" transform="translate(-288 -413.89)">
+                                            <path data-name="Path 154" fill="currentColor"
+                                                d="M298.7,418.289l-2.906-4.148a.835.835,0,0,0-.528-.251.607.607,0,0,0-.529.251l-2.905,4.148h-3.17a.609.609,0,0,0-.661.625v.191l1.651,5.84a1.336,1.336,0,0,0,1.255.945h8.588a1.261,1.261,0,0,0,1.254-.945l1.651-5.84v-.191a.609.609,0,0,0-.661-.625Zm-5.419,0,1.984-2.767,1.98,2.767Zm1.984,5.024a1.258,1.258,0,1,1,1.319-1.258,1.3,1.3,0,0,1-1.319,1.258Zm0,0">
+                                            </path>
+                                        </g>
+                                    </svg>Cart</p>
                             </div>
                         </div>
-                        <div class="col-12 text-center mt-5 ">
-                            <a class="loadmore font-weight-bold border p-2 pl-4 pr-4 bg-white" href=""><span class="load1">Load More</span></a>
-                        </div>
+                    </div>
+                </div>
+                <div class="col-12 text-center mt-5 ">
+                    <a class="loadmore font-weight-bold border p-2 pl-4 pr-4 bg-white" href=""><span class="load1">Load
+                            More</span></a>
+                </div>
             </div>
         </div>
     </div>
@@ -1016,13 +1105,13 @@
 
 
     <script>
-        document.querySelector('.hamburger').addEventListener('click', function() {
+        document.querySelector('.hamburger').addEventListener('click', function () {
             document.querySelector('.menuhamburger').classList.toggle('show');
         })
-        document.querySelector('.backet').addEventListener('click', function() {
+        document.querySelector('.backet').addEventListener('click', function () {
             document.querySelector('.inbacket').classList.toggle('show');
         })
-        document.querySelector('.backet2').addEventListener('click', function() {
+        document.querySelector('.backet2').addEventListener('click', function () {
             document.querySelector('.inbacket').classList.toggle('show');
         })
     </script>
