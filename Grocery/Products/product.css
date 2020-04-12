@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap');
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+.addproducts{
+    color: white;
+    font-size: 15px;
+     font-family: 'Lato', sans-serif;
+     font-weight: bold;
+}
+.ulduz svg{
+    position: absolute;
+    top: 34px;
+    right: 136px;
+    color: rgb(0, 212, 181);
+}
+.solteref{
+    width: 20%;
+}
+.sagteref{
+    width: 80%;
+}
+.leftside{
+    color: rgb(22, 31, 106);
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+    line-height: 1.5;
+    font-weight: 700 !important;
+    padding: 20px 0px 20px 75px;
+    border-radius: 20px;
+}
+.leftlink1{
+    margin-top: 30px;
+}
+
+.nav-pills .nav-link.active{
+    color: rgb(0, 212, 181) !important;
+    background: rgb(247, 247, 247) !important;
+    }
+.nav-pills a:hover{
+    color: rgb(22, 31, 106) !important;
+}
+.buttonaddproducts:hover{
+    background-color: rgb(0, 189, 135) !important;
+}
+.middle{
+    margin: 31px 69px 0px 26px;
+    padding: 45px 21px 45px 43px;
+    color: rgb(22, 31, 106);
+}
+.mproduct{
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+}
+.middle .samecolor{
+    color:rgb(22, 31, 106) !important;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    border: 1px solid white;
+    background: rgb(235, 232, 232);
+    padding: 12px 21px;
+}
+.samecolor:focus{
+    border-color: rgb(0, 197, 141);
+}
+.mplace{
+    font-family: 'Lato', sans-serif;
+}
+.categorylist{
+    margin-top: 10px;
+    border-radius: 0px;
+
+}
+.item{
+    background: white;
+    color: rgb(102, 109, 146);
+    font-size: 16px;
+    margin-bottom: 5px;
+    font-family: 'Lato', sans-serif;
+    white-space: pre-wrap;
+}
+.item:hover{
+    color:rgb(102, 109, 146) !important;
+}
+.card{
+    width: 14rem !important;
+    border-style: none !important;
+    margin-top: 20px;
+}
+.toppict{
+    margin-left: 10px !important;
+    margin-right: 55px !important;
+    }
+.cardmoney{
+    margin-top: 15px;
+}
+.cardlb{
+    margin-top: 40px;
+    color: rgb(102, 109, 146);
+    font-family:sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+.cardmoney{
+    color: rgb(0, 197, 141);
+    font-family: "Lato", sans-serif;
+}
+.cardname{
+    color: rgb(22, 31, 106);
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+}
+.bottomleft{
+    padding: 12px 16px;
+    background-color: rgb(0, 197, 141);
+    font-family: "Lato", sans-serif;
+    color: white;
+    border-style: none;
+    font-weight: 700 !important;
+    font-size: 15px;
+}
+.bottomleft:hover{
+    background-color: rgb(0, 189, 135); 
+}

@@ -203,18 +203,20 @@ body{
         border-style: none;
      }
      .inbacket{
+         transition: 1s;
          width: 420px;
          height: 100vh;
          background: rgb(255, 255, 255);
          position: fixed;
-         right: 0;
+         right: -100%;
          z-index: 200;
          top: 0;
-          display: none;
+         bottom: 0;
+          /* display: none; */
           box-shadow: rgba(0, 0, 0, 0.16) 0px 21px 36px;
     }
     .show{
-        
+        right: 0;
         display: flex;
         flex-direction: column;
     }
