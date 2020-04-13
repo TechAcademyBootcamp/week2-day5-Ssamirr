@@ -56,20 +56,25 @@ body{
 .mproduct{
     font-size: 20px;
     font-family: 'Lato', sans-serif;
+    color: rgb(22, 31, 106);
 }
-.middle .samecolor{
+.samecolor{
     color:rgb(22, 31, 106) !important;
     font-size: 16px;
     font-family: 'Lato', sans-serif;
     border: 1px solid white;
     background: rgb(235, 232, 232);
-    padding: 12px 21px;
+    
 }
 .samecolor:focus{
     border-color: rgb(0, 197, 141);
 }
 .mplace{
     font-family: 'Lato', sans-serif;
+}
+.mplace:focus{
+    border-style: solid !important;
+    border-color: rgb(0, 197, 141);
 }
 .categorylist{
     margin-top: 10px;
@@ -128,7 +133,7 @@ body{
     background-color: rgb(0, 189, 135); 
 }
 .notificationtable{
-    position: fixed;
+    position: absolute;
     top: 59px;
     right: 141px;
     width: 330px;
@@ -180,8 +185,54 @@ body{
     font-size: 16px;
     font-family: "Lato", sans-serif;
 }
-
-
 .card{
     width: 100% !important;
+}
+.settings{
+    width: 220px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 4px 16px;
+    background: white;
+    position: absolute;
+    top: 73px;
+    right: 43px;
+    z-index: 20;
+    display: none;
+}
+.settingsmenu{
+    border-bottom: 1px solid rgb(247, 247, 247);
+    padding: 16px 20px;
+    color: rgb(102, 109, 146);
+    font-size: 16px;
+    font-family: "Lato", sans-serif;
+}
+.show2{
+    display: block;
+}
+.clickadd{
+    width: 70vw;
+    height: 100%;
+    background-color: rgb(247, 247, 247);
+    position: fixed;
+    top: 0;
+    right: 0;
+    padding: 30px 70px;
+}
+.headerclick{
+    color: rgb(22, 31, 106);
+    font-family: "Lato", sans-serif;
+    font-size: 20px;
+}
+.dashedborder{
+    border: 2px dashed rgb(230, 230, 230);
+    border-radius: 3px;
+    padding: 35px;
+}
+.drag{
+    color:rgb(0, 197, 141);
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+}
+.upload{
+    font-weight: 400;
+    font-size: 16px;
 }
