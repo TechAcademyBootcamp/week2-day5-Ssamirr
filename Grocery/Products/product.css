@@ -144,7 +144,7 @@ body{
     display: none;
 }
 .show{
-    display: block;
+    display: block !important;
 }
 .notification{
     font-size: 20px;
