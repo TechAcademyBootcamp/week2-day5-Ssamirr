@@ -4,7 +4,7 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    overflow-x: hidden;
+    overflow: hidden;
 }
 
 .addproducts{
@@ -24,6 +24,8 @@ body{
 }
 .sagteref{
     width: 80%;
+    
+height: 600px;
 }
 .leftside{
     color: rgb(22, 31, 106);
@@ -53,7 +55,7 @@ body{
     padding: 45px 21px 45px 43px;
     color: rgb(22, 31, 106);
 }
-.mproduct{
+.mproduct,.morders{
     font-size: 20px;
     font-family: 'Lato', sans-serif;
     color: rgb(22, 31, 106);
@@ -96,6 +98,7 @@ body{
     width: 14rem !important;
     border-style: none !important;
     margin-top: 20px;
+    cursor: pointer;
 }
 .toppict{
     margin-left: 10px !important;
@@ -137,11 +140,12 @@ body{
     top: 59px;
     right: 141px;
     width: 330px;
-    height: 197px;
+    height: 210px;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 4px 16px;
     background: white;
     box-sizing: border-box;
     display: none;
+    z-index: 10;
 }
 .show{
     display: block !important;
@@ -195,7 +199,7 @@ body{
     position: absolute;
     top: 73px;
     right: 43px;
-    z-index: 20;
+    
     display: none;
 }
 .settingsmenu{
@@ -204,10 +208,15 @@ body{
     color: rgb(102, 109, 146);
     font-size: 16px;
     font-family: "Lato", sans-serif;
+    cursor: pointer;
+}
+.settingsmenu:hover{
+    color: #00c58d;
 }
 .show2{
-    display: block;
+    display: block !important;
 }
+
 .clickadd{
     width: 70vw;
     height: 100%;
@@ -216,6 +225,7 @@ body{
     top: 0;
     right: 0;
     padding: 30px 70px;
+    transition: 1s;
 }
 .headerclick{
     color: rgb(22, 31, 106);
@@ -234,5 +244,122 @@ body{
 }
 .upload{
     font-weight: 400;
+    font-size: 16px;
+}
+.ashagi{
+    position: fixed;
+    bottom: 0;
+    right: 13px;
+    width: 70vw;
+}
+.backcancel{
+    padding: 30px;
+}
+.addcancel{
+    color: rgb(252, 92, 99);
+    background: white;
+    border-style: none;
+    padding: 12px 16px;
+    font-family: "Lato", sans-serif;
+}
+.addcancel:hover{
+    background-color: rgb(247, 247, 247);
+}
+.backcreate{
+padding: 30px
+}
+.addcreate{
+    padding: 12px 16px;
+    background: #00be88;
+    border-style: none;
+    color: white;
+    font-family: "Lato", sans-serif;
+}
+.addcreate:hover{
+    background-color: rgb(0, 189, 135);
+}
+.exit{
+     position: absolute;
+     top: 12px;
+     left: -30px;
+    color: rgb(102, 109, 146);
+    padding: 0px 9px;
+    background: white;
+    border-radius: 50%;
+}
+.full{
+    display: none;
+}
+.show3{
+    
+    display: block;
+}
+.labelname{
+    color: rgb(22, 31, 106);
+    font-size: 16px;
+    font-family:  "Lato", sans-serif;
+    margin-top: 15px;
+}
+.inputstyle{
+    width: 100%;
+    padding: 10px 0px;
+    border-radius: 0;
+    border-style: none;
+    background-color: rgb(236, 234, 234);
+}
+.inputstyle:focus{
+border-color: #00c58d !important;
+border-style: solid;
+}
+
+.col2{
+    width: 26%;
+}
+.col3{
+    width: 48%;
+}
+.coll3:focus{
+    border-color: #00c58d !important;
+    border-style: solid !important;
+}
+
+.checkbox{
+    padding: 10px 35px 10px 20px;
+    
+}
+.ID{
+    padding: 10px 35px 10px 20px;
+    color: rgb(22, 31, 106) !important;
+    font-size: 16px;
+}
+.customerID{
+    padding: 10px 35px 10px 20px;
+    color: rgb(22, 31, 106) !important;
+    font-size: 16px;
+}
+.time{
+    padding: 10px 35px 10px 20px;
+    color: rgb(22, 31, 106) !important;
+    font-size: 16px;
+}
+.deliveryadress{
+    padding: 10px 35px 10px 20px;
+    color: rgb(22, 31, 106) !important;
+    font-size: 16px;
+}
+.amount{
+    color: rgb(22, 31, 106) !important;
+    font-size: 16px;
+}
+.paymentamount{
+    color: rgb(22, 31, 106) !important;
+    font-size: 16px;
+}
+.contact{
+    color: rgb(22, 31, 106) !important;
+    font-size: 16px;
+}
+.status{
+    color: rgb(22, 31, 106) !important;
     font-size: 16px;
 }
