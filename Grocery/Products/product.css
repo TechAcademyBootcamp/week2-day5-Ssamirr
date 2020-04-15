@@ -4,7 +4,7 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 .addproducts{
@@ -46,6 +46,11 @@ height: 600px;
     }
 .nav-pills a:hover{
     color: rgb(22, 31, 106) !important;
+}
+.okh{
+    display: flex;
+justify-content: space-between;
+align-items: center;
 }
 .buttonaddproducts:hover{
     background-color: rgb(0, 189, 135) !important;
@@ -290,6 +295,7 @@ padding: 30px
 .full{
     display: none;
 }
+
 .show3{
     
     display: block;
@@ -312,15 +318,25 @@ border-color: #00c58d !important;
 border-style: solid;
 }
 
-.col2{
+/* .col2{
     width: 26%;
 }
 .col3{
     width: 48%;
-}
+} */
 .coll3:focus{
     border-color: #00c58d !important;
     border-style: solid !important;
+}
+.bashhisse{
+    position: sticky;
+    top: 0;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    border: 1px solid white;
+}
+.bashhisse th{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
 
 .checkbox{
@@ -362,4 +378,56 @@ border-style: solid;
 .status{
     color: rgb(22, 31, 106) !important;
     font-size: 16px;
+}
+.header2{
+    display: none;
+}
+.menuheader2{
+    width: 270px;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 5;
+}
+
+.menuheader2 a{
+    white-space: nowrap;
+    z-index: 5;
+    
+    
+}
+.full2{
+    z-index: 4;
+    display: none;
+}
+
+
+@media screen and (max-width:1185px){
+    .header2{
+        display: block;
+    }
+.solteref{
+    display: none;
+}
+.sagteref{
+    width: 100%;
+}
+.sagterefscroll{
+    height: 450px !important;
+}
+header{
+    display: none;
+}
+}
+
+@media screen and (max-width:575px){
+.shekil{
+    width: 200px;
+    margin:auto;
+}
+.sagterefscroll{
+    height: 400px !important;
+}
 }
